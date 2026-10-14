@@ -168,7 +168,7 @@ Wrap your code in the function `setImmediate` to prevent timeouts (you may or ma
 Save the above script as `uncrackable1.js` and load it:
 
 ```bash
-frida -U -f owasp.mstg.uncrackable1 -l uncrackable1.js --no-pause
+frida -U -f owasp.mstg.uncrackable1 -l uncrackable1.js
 ```
 
 After you see the "MainActivity.a modified" message and the app will not exit anymore.
@@ -247,7 +247,7 @@ setImmediate(function() { //prevent timeout
 After running the script in Frida and seeing the "[\*] sg.vantagepoint.a.a.a modified" message in the console, enter a random value for "secret string" and press verify. You should get an output similar to the following:
 
 ```bash
-$ frida -U -f owasp.mstg.uncrackable1 -l uncrackable1.js --no-pause
+$ frida -U -f owasp.mstg.uncrackable1 -l uncrackable1.js
 
 [*] Starting script
 [USB::Android Emulator 5554::sg.vantagepoint.uncrackable1]-> [*] MainActivity.a modified

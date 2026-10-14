@@ -37,9 +37,9 @@ For dynamic analysis, you'll need an Android device to run the target app on. In
 
 Almost any physical device can be used for testing, but there are a few considerations to be made. First, the device needs to be rootable. This is typically either done through an exploit, or through an unlocked bootloader. Exploits are not always available, and the bootloader may be locked permanently, or it may only be unlocked once the carrier contract has been terminated.
 
-The best candidates are flagship Google pixel devices built for developers. These devices typically come with an unlockable bootloader, opensource firmware, kernel, radio available online and official OS source code. The developer communities prefer Google devices as the OS is closest to the android open source project. These devices generally have the longest support windows with 2 years of OS updates and 1 year of security updates after that.
+The best candidates are flagship Google pixel devices built for developers. These devices typically come with an unlockable bootloader, opensource firmware, kernel, radio available online and official OS source code. The developer communities prefer Google devices as the OS is closest to the android open source project. These devices generally have the longest support windows. Recent Pixel devices receive 7 years of OS and security updates from Google.
 
-Alternatively, Google's [Android One](https://www.android.com/one/ "Android One") project contains devices that will receive the same support windows (2 years of OS updates, 1 year of security updates) and have near-stock experiences. While it was originally started as a project for low-end devices, the program has evolved to include mid-range and high-end smartphones, many of which are actively supported by the modding community.
+Alternatively, Google's [Android One](https://www.android.com/one/ "Android One") project contains devices with near-stock experiences. Support windows vary by device, manufacturer and release date, so check the manufacturer's published policy before relying on a device as a long-lived test bed. While it was originally started as a project for low-end devices, the program has evolved to include mid-range and high-end smartphones, many of which are actively supported by the modding community.
 
 Devices that are supported by the [LineageOS](https://lineageos.org/ "LineageOS") project are also very good candidates for test devices. They have an active community, easy to follow flashing and rooting instructions and the latest Android versions are typically quickly available as a Lineage installation. LineageOS also continues support for new Android versions long after the OEM has stopped distributing updates.
 
@@ -63,10 +63,10 @@ Although there exist several free Android emulators, we recommend using AVD as i
 
 AVD supports some hardware emulation, such as GPS or SMS through its so-called [Extended Controls](https://developer.android.com/studio/run/advanced-emulator-usage#extended "Extended Controls") as well as [motion sensors](https://developer.android.com/guide/topics/sensors/sensors_overview#test-with-the-android-emulator "Testing motion sensors on emulators").
 
-You can either start an Android Virtual Device (AVD) by using the AVD Manager in Android Studio or start the AVD manager from the command line with the `android` command, which is found in the tools directory of the Android SDK:
+You can either start an Android Virtual Device (AVD) by using the AVD Manager in Android Studio or start the AVD manager from the command line with the `avdmanager` command, which is shipped in the Android SDK command-line tools:
 
 ```bash
-./android avd
+avdmanager create avd
 ```
 
 Several tools and VMs that can be used to test an app within an emulator environment are available:

@@ -16,7 +16,7 @@ xpcspy is installed via pip and requires `frida-server` to be running on the tar
 
 ```bash
 pip3 install xpcspy
-````
+```
 
 ## Usage
 

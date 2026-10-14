@@ -55,7 +55,7 @@ It is also possible to get the UDID via various command line tools on macOS whil
 - By using instruments:
 
     ```sh
-    instruments -s devices
+    xcrun xctrace list devices
     ```
 
 ### Testing on a real device (Jailbroken)
