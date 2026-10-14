@@ -1,7 +1,7 @@
 ---
 title: cdxgen
 platform: generic
-source: https://github.com/CycloneDX/cdxgen
+source: https://github.com/cdxgen/cdxgen
 ---
 
 cdxgen can generate Software Bill of Materials (SBOM) for most applications and container images with a single command. It supports SwiftPM for iOS and Maven for Android. The generated SBOM can then be submitted to analysis tools such as @MASTG-TOOL-0132.
