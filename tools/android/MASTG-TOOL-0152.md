@@ -20,7 +20,7 @@ The device-side `lldb-server` binary is usually located under a path similar to:
 
 ```bash
 $LLDB_ROOT/toolchains/llvm/prebuilt/$HOST_ARCH/lib/clang/$CLANG_VERSION/lib/linux/$ANDROID_ARCH/lldb-server
-````
+```
 
 This path can vary between Android Studio, NDK, host platform, and LLVM versions. To locate it, search inside the Android SDK or NDK directory:
 

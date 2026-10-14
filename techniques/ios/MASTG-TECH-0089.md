@@ -3,10 +3,6 @@ title: Symbolic Execution
 platform: ios
 ---
 
-TODO: Currently don't have this, but we do have this section below, which does talk about Angr and a small intro referring to Android
-
-You can find an introduction to binary analysis using binary analysis frameworks in @MASTG-TECH-0015. We recommend revisiting that content and refreshing your understanding of the concepts in this area.
-
 For Android, we used Angr's symbolic execution engine to solve a challenge. In this section, we will first use Unicorn to solve the @MASTG-APP-0025 challenge, and then revisit the Angr binary analysis framework to analyze it. Instead of symbolic execution, we will use its concrete execution (or dynamic execution) features.
 
 ## Angr

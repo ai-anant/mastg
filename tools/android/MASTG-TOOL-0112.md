@@ -1,7 +1,7 @@
 ---
 title: pidcat
 platform: android
-source: https://github.com/1fexd/pidcat
+source: https://github.com/JakeWharton/pidcat
 ---
 
 The pidcat tool acts as a wrapper for `adb logcat` that allows you to view Android log entries for specific application packages in a visually distinct color format.

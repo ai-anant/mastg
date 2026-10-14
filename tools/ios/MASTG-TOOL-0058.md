@@ -1,7 +1,7 @@
 ---
-title: MachoOView
+title: MachOView
 platform: ios
-source: https://sourceforge.net/projects/machoview/
+source: https://github.com/gdbinit/MachOView
 ---
 
-MachoOView is a useful visual Mach-O file browser that also allows in-file editing of ARM binaries.
+MachOView is a useful visual Mach-O file browser that also allows in-file editing of ARM binaries.

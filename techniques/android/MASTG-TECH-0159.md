@@ -11,7 +11,7 @@ This technique describes how to identify file based content providers.
 
 ## Using the AndroidManifest
 
-Use @MASTG-TECH-0117, to identify exported activities that are set to `android:exported="true"`.
+Use @MASTG-TECH-0117 to identify exported `<provider>` components that are set to `android:exported="true"`.
 
 Extract `res/xml/*.xml` and check for `FileProvider` path declarations. Flag any usage of:
 
