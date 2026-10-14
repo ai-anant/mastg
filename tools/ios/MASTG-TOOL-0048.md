@@ -2,6 +2,9 @@
 title: dsdump
 platform: ios
 source: https://github.com/DerekSelander/dsdump
+status: deprecated
+deprecation_note: dsdump is archived and its Objective-C class dumps are unreliable on binaries built since roughly 2021, because Apple's newer binding opcodes are not handled. Use @MASTG-TOOL-0105 instead
+covered_by: [MASTG-TOOL-0105]
 ---
 
 dsdump is a tool to dump Objective-C classes and Swift type descriptors (classes, structs, enums). It only supports Swift version 5 or higher and does not support ARM 32-bit binaries.

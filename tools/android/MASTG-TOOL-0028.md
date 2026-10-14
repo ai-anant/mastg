@@ -1,16 +1,16 @@
 ---
 title: radare2 for Android
 platform: android
-source: https://github.com/radare/radare2
+source: https://github.com/radareorg/radare2
 ---
 
 radare2 (r2) is a popular open source reverse engineering framework for disassembling, debugging, patching, and analyzing binaries that is scriptable and supports many architectures and file formats, including Android and iOS apps. For Android, Dalvik DEX (odex, multidex), ELF (executables, .so, ART), and Java (JNI and Java classes) are supported. It also contains several useful scripts that can help you during mobile application analysis, as it offers low-level disassembling and safe static analysis that comes in handy when traditional tools fail.
 
-radare2 implements a rich command-line interface (CLI) where you can perform the mentioned tasks. However, if you're not really comfortable using the CLI for reverse engineering, you may want to consider using the Web UI (via the `-H` flag) or the even more convenient Qt and C++ GUI version called [iaito](https://github.com/radareorg/iaito "iaito"). Do keep in mind that the CLI, and more concretely its Visual Mode and its scripting capabilities ([r2pipe](https://github.com/radare/radare2-r2pipe "r2pipe")), are the core of radare2's power, and it's definitely worth learning how to use it.
+radare2 implements a rich command-line interface (CLI) where you can perform the mentioned tasks. However, if you're not really comfortable using the CLI for reverse engineering, you may want to consider using the Web UI (via the `-H` flag) or the even more convenient Qt and C++ GUI version called [iaito](https://github.com/radareorg/iaito "iaito"). Do keep in mind that the CLI, and more concretely its Visual Mode and its scripting capabilities ([r2pipe](https://github.com/radareorg/radare2-r2pipe "r2pipe")), are the core of radare2's power, and it's definitely worth learning how to use it.
 
 ## Installing radare2
 
-Please refer to [radare2's official installation instructions](https://github.com/radare/radare2/blob/master/README.md "radare2 installation instructions"). We highly recommend always installing radare2 from the GitHub version instead of via common package managers such as APT. Radare2 is in very active development, which means that third-party repositories are often outdated.
+Please refer to [radare2's official installation instructions](https://github.com/radareorg/radare2/blob/master/README.md "radare2 installation instructions"). We highly recommend always installing radare2 from the GitHub version instead of via common package managers such as APT. Radare2 is in very active development, which means that third-party repositories are often outdated.
 
 ## Using radare2
 

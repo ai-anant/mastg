@@ -1,7 +1,7 @@
 ---
 title: dependency-check
 platform: generic
-source: https://github.com/jeremylong/DependencyCheck
+source: https://github.com/dependency-check/DependencyCheck
 ---
 
 Dependency-Check is a Software Composition Analysis (SCA) tool that attempts to detect publicly disclosed vulnerabilities contained within a project's dependencies.
