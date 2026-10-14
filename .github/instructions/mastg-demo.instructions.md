@@ -421,7 +421,7 @@ Static demos must work using the **reverse-engineered code**. The apps' reposito
 
 Example: semgrep
 
-`NO_COLOR=true semgrep -c ../../../../rules/mastg-android-insecure-random-use.yaml ./MastgTest_reversed.java --text -o output.txt`
+`NO_COLOR=true semgrep -c ../../../../rules/mastg-android-random-apis-insufficient-entropy.yml ./MastgTest_reversed.java --text -o output.txt`
 
 #### Dynamic
 
